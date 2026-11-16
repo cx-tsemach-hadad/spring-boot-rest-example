@@ -17,6 +17,8 @@
 
 	<properties>
 		<start-class>com.khoubyari.example.Application</start-class>
+		<!-- Override Spring Boot managed Tomcat version to fix CVE-2024-23672 -->
+		<tomcat.version>8.5.99</tomcat.version>
 	</properties>
 
 	<dependencies>
